@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   ami                    = "ami-0affd4508a5d2481b"
   instance_type          = "t2.micro"
   key_name               = "malthumkar"
-  vpc_security_group_ids = ["CentOS 7 -x86_64- - with Updates HVM-2002_01-AutogenByAWSMP-3"]
+  vpc_security_group_ids = ["Jenkins-SG"]
 
   tags = {
     name   = "terraform_instance"
